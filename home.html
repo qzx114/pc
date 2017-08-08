@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <style>
+        #box{
+            width:150px;
+            height:200px;
+            perspective: 2000px;
+            margin:0 auto;
+            position: relative;
+            margin-top:100px;
+        }
+        #box ol{
+            width: 100%;
+            height: 100%;
+            transform-style:preserve-3d;
+            animation:move 60s 5s infinite;
+        }
+        #box ol li{
+            width:150px;
+            height:200px;
+            box-shadow: 0 3px 3px rgba(255,250,240,0.5);
+            position: absolute;
+            left:0;
+            top:0;
+            transform: rotateX(90deg) translateZ(-100px);
+        }
+        #box ol li:nth-child(1){
+            background:url(images/115Z45509-0.png);
+            background-size:150px;
+        }
+        #box ol li:nth-child(2){
+            background:url(images/a.jpg) center;
+            background-size:270px;
+        }
+        #box ol li:nth-child(3){
+            background:url(images/20110924195046-1416634718.jpg);
+            background-size:150px;
+        }
+        #box ol li:nth-child(4){
+            background:url(images/2013072511341481.jpg);
+            background-size:150px;
+        }
+        #box ol li:nth-child(5){
+            background:url(images/2015081510565107.jpg) center;
+            background-size:150px;
+        }
+        #box ol li:nth-child(6){
+            background:url(images/2014090413140136.jpg);
+            background-size:360px;
+        }
+        #box ol li:nth-child(7){
+            background:url(images/MzA21376877154220.jpg);
+            background-size:150px;
+        }
+        #box ol li:nth-child(8){
+            background:url(images/t0141f8d6af9859d002.jpg);
+            background-size:180px;
+        }
+        #box ol li:nth-child(9){
+            background:url(images/t018869342e04d4698f.png) 0 -20px;
+            background-size:360px;
+        }
+        #box ol li:nth-child(10){
+            background:url(images/t018869342e04d4698f.png) -200px 0px;
+            background-size:360px;
+        }
+        #box ol li:nth-child(11){
+            background:url(images/b.png);
+            background-size:360px;
+        }
+        #box ol li:nth-child(12){
+            background:url(images/b.png) -200px 0px;
+            background-size:370px;
+        }
+
+        @keyframes move {
+            0%{
+                transform: rotateY(0deg);
+            }
+            8%{
+                transform: rotateY(30deg);
+            }
+            16%{
+                transform: rotateY(60deg);
+            }
+            24%{
+                transform: rotateY(90deg);
+            }
+            32%{
+                transform: rotateY(120deg);
+            }
+            40%{
+                transform: rotateY(150deg);
+            }
+            48%{
+                transform: rotateY(180deg);
+            }
+            56%{
+                transform: rotateY(210deg);
+            }
+            65%{
+                transform: rotateY(240deg);
+            }
+            73%{
+                transform: rotateY(270deg);
+            }
+            81%{
+                transform: rotateY(300deg);
+            }
+            90%{
+                transform: rotateY(330deg);
+            }
+            100%{
+                transform: rotateY(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+
+    <div class="head">
+
+        <a href="javascript:;" class="head-t"></a>
+        <a href="javascript:;" class="head-n"></a>
+        <p>
+            <a href="javascript:;" class="head-c"><em></em>成长守护平台</a>
+            <a href="javascript:;" class="head-x">腾讯游戏排行榜<em></em></a>
+        </p>
+    </div>
+
+    <div class="nav">
+
+        <ul>
+            <li><a href="javascript:;">游戏下载</a></li>
+            <li><a href="javascript:;">素材下载</a></li>
+            <li><a href="javascript:;">壁纸下载</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="javascript:;">新手指引</a></li>
+            <li><a href="javascript:;">炫舞特色</a></li>
+        </ul>
+
+        <ul class="nav-o">
+            <li><a href="javascript:;">活动中心<em></em></a></li>
+            <li><a href="javascript:;">炫.联赛</a></li>
+            <li><a href="javascript:;">每日一签</a></li>
+            <li><a href="javascript:;">绑定手机</a></li>
+        </ul>
+
+        <ul class="nav-t">
+            <li><a href="javascript:;">XVIP<em></em></a></li>
+            <li><a href="javascript:;">紫钻贵族</a></li>
+            <li><a href="javascript:;">紫钻砸蛋</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:;">活动中心</a></li>
+            <li><a href="javascript:;">娱乐表演</a></li>
+            <li><a href="javascript:;">梦工厂论坛</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:;">玩家论坛</a></li>
+            <li><a href="javascript:;">周边商城</a></li>
+            <li><a href="javascript:;">炫舞小灵通</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:;">客服专区</a></li>
+            <li><a href="javascript:;">Q游助手</a></li>
+            <li><a href="javascript:;">封号查询</a></li>
+        </ul>
+
+
+    </div>
+
+    <div class="wrap">
+
+        <!-- 3d动画环绕-->
+        <div id="box">
+
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+
+        <div class="main">
+            <a href="javascript:;" class="load">下载游戏</a>
+            <a href="javascript:;" class="xuan">进入炫舞梦工厂</a>
+            <a href="javascript:;" class="vip xuan">XVIP至尊会员</a>
+
+            <div class="main-y">
+                <a href="javascript:;" class="you">游戏充值</a>
+                <a href="javascript:;" class="dian you">点亮图标</a>
+                <h1><em></em>快速导航</h1>
+                <ul>
+                    <li>
+                        <a href="javascript:;"><i></i>帮帮福利</a>
+                        <a href="javascript:;"><i></i>帮帮福利</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i></i>CDkey兑换<em></em></a>
+                        <a href="javascript:;"><i></i>合作礼包<em></em></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i></i>点券充值</a>
+                        <a href="javascript:;"><i></i>道聚城</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><i></i>许愿墙</a>
+                        <a href="javascript:;"><i></i>舞团平台</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main-z">
+                <h1>紫钻专区<a href="javascript:;"><em></em>进入专区</a></h1>
+            </div>
+
+        </div>
+
+        <div class="body">
+
+            <div class="body-o">
+
+                <div class="body-t">
+                    <div class="ul">
+                        <ul id="ul">
+                            <li class="on"><a href="javascript:;">新闻</a></li>
+                            <li><a href="javascript:;">活动</a></li>
+                            <li><a href="javascript:;">商城</a></li>
+                            <li><a href="javascript:;">公告</a></li>
+                            <li><a href="javascript:;">社区</a></li>
+                        </ul>
+                        <a href="javascript:;" class="cha"></a>
+                    </div>
+                    <div class="gong" id="gong">
+                        <b class="b">[公告]</b>
+                        <a href="javascript:;" class="ke">可飞行的驼驼</a>
+                        <em class="em">07/13</em>
+                        <ul class="show">
+                            <li>
+                                <b>[新闻]</b>
+                                <a href="javascript:;">超多福利暑期来袭 一毛钱得幻彩礼盒</a>
+                                <em>07/21</em>
+                            </li>
+                            <li>
+                                <b>[新闻]</b>
+                                <a href="javascript:;" style="color:#f00;">炫舞九年伴你永久 全新GG上线</a>
+                                <em>07/20</em>
+                            </li>
+                            <li>
+                                <b>[新闻]</b>
+                                <a href="javascript:;" style="color:#f00;">暑期献礼——全新月亮系列</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[新闻]</b>
+                                <a href="javascript:;">1Q币得春花秋月礼盒</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[新闻]</b>
+                                <a href="javascript:;">7月20日点券大转盘奖池更新</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[新闻]</b>
+                                <a href="javascript:;" style="color:#f00;">幸运水晶石开启 小丸子座驾首发</a>
+                                <em>07/19</em>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <b>[活动]</b>
+                                <a href="javascript:;" style="color:#f00;">初音未来新坐骑免费送</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[活动]</b>
+                                <a href="javascript:;">7月暑假第三周 神秘服饰+10160点券</a>
+                                <em>07/14</em>
+                            </li>
+                            <li>
+                                <b>[活动]</b>
+                                <a href="javascript:;" style="color:#f00;">7月重楼&宠物秘境活动时间</a>
+                                <em>07/10</em>
+                            </li>
+                            <li>
+                                <b>[活动]</b>
+                                <a href="javascript:;" style="color:#f00;">坐骑印章限时双倍打造概率</a>
+                                <em>07/05</em>
+                            </li>
+                            <li>
+                                <b>[活动]</b>
+                                <a href="javascript:;" style="color:#f00;">“拜托卡”任性给，欢乐暑假给你惊喜</a>
+                                <em>07/04</em>
+                            </li>
+                            <li>
+                                <b>[活动]</b>
+                                <a href="javascript:;">7月暑假第一周 10171点券</a>
+                                <em>06/29</em>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <b>[商城]</b>
+                                <a href="javascript:;">超多福利暑期来袭 一毛钱的幻彩礼盒</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[商城]</b>
+                                <a href="javascript:;" style="color:#f00;">暑期献礼——全新月亮系列</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[商城]</b>
+                                <a href="javascript:;">1Q币得春花秋月礼盒</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[商城]</b>
+                                <a href="javascript:;">7月20日点券大转盘奖池更新</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[商城]</b>
+                                <a href="javascript:;" style="color:#f00;">幸运水晶石开启 小丸子座驾首发</a>
+                                <em>07/19</em>
+                            </li>
+                            <li>
+                                <b>[商城]</b>
+                                <a href="javascript:;" style="color:#f00;">宝莱坞生死恋 印度系列降临</a>
+                                <em>07/17</em>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <b>[公告]</b>
+                                <a href="javascript:;" style="color:#f00;">【公告】梦工厂IOS全屏特效闪退修复公告</a>
+                                <em>07/15</em>
+                            </li>
+                            <li>
+                                <b>[公告]</b>
+                                <a href="javascript:;" style="color:#f00;">【公告】梦工厂主题活动榜单维护公告</a>
+                                <em>07/15</em>
+                            </li>
+                            <li>
+                                <b>[公告]</b>
+                                <a href="javascript:;" style="color:#f00;">衣服资源无法下载修复</a>
+                                <em>07/13</em>
+                            </li>
+                            <li>
+                                <b>[公告]</b>
+                                <a href="javascript:;" style="color:#f00;">关于7月版本跳舞毯模式的公告</a>
+                                <em>07/13</em>
+                            </li>
+                            <li>
+                                <b>[公告]</b>
+                                <a href="javascript:;" style="color:#f00;">【公告】7月13日全区维护完成公告</a>
+                                <em>07/13</em>
+                            </li>
+                            <li>
+                                <b>[公告]</b>
+                                <a href="javascript:;" style="color:#f00;">【公告】7月13日全区维护公告</a>
+                                <em>07/12</em>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <b>[社区]</b>
+                                <a href="javascript:;" style="color:#00B050;">同人秀08 | 九周年限定同人作品&表情包</a>
+                                <em>05/23</em>
+                            </li>
+                            <li>
+                                <b>[社区]</b>
+                                <a href="javascript:;" style="color:#00B050;">同人秀 | 冰火恋歌表情包</a>
+                                <em>04/25</em>
+                            </li>
+                            <li>
+                                <b>[社区]</b>
+                                <a href="javascript:;">时尚周刊11 | 选出真技 舞出精彩</a>
+                                <em>04/12</em>
+                            </li>
+                            <li>
+                                <b>[社区]</b>
+                                <a href="javascript:;">论坛 | 炫舞九年，最美遇见你</a>
+                                <em>04/11</em>
+                            </li>
+                            <li>
+                                <b>[社区]</b>
+                                <a href="javascript:;">时尚周刊10 | 爱是愚人国度</a>
+                                <em>04/01</em>
+                            </li>
+                            <li>
+                                <b>[社区]</b>
+                                <a href="javascript:;" style="color:#00B050;">同人秀06 | 我有一个公举梦</a>
+                                <em>04/01</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="body-h" id="bodyH">
+                    <div class="tab" id="tab">
+                        <ul>
+                            <li><a href="javascript:;" class="up">官方</a></li>
+                            <li><a href="javascript:;">合作</a></li>
+                        </ul>
+                    </div>
+
+                        <div class="banner" id="banner">
+                            <div><img src="images/1499882247319933383.jpg" alt=""/></div>
+                            <div><img src="images/1499283188415380979.jpg" alt=""/></div>
+                            <div><img src="images/1500226300235611040.jpg" alt=""/></div>
+                            <div><img src="images/1499881698628979980.jpg" alt=""/></div>
+                            <div><img src="images/1499881720100566401.jpg" alt=""/></div>
+                        </div>
+
+                        <div class="hoz" id="hoz">
+                            <ul>
+                                <li><a href="javascript:;" class="xian">音迷星空</a></li>
+                                <li><a href="javascript:;">囧囧惹人爱</a></li>
+                                <li><a href="javascript:;">官方跳舞毯</a></li>
+                                <li><a href="javascript:;">7月幸运城</a></li>
+                                <li><a href="javascript:;">三生三世</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+
+            <div class="body-f">
+
+                <div class="body-s">
+
+                    <div class="body-tab">
+                        <ul id="list">
+                            <li class="down"><a href="javascript:;">X5同人秀</a></li>
+                            <li><a href="javascript:;">炫舞小灵通</a></li>
+                            <li><a href="javascript:;">官方微信</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="list chu">
+                            <img src="images/60295714937508.jpg" alt=""/>
+                            <div class="text">
+                                <h1>幽冥魔仙同人创作</h1>
+                                <h2>2017-02-12~2018-02-12</h2>
+                                <p>首选战宠——幽冥魔仙玩家原创同人作品欣赏</p>
+                                <a href="javascript:;">> 进入专区</a>
+                            </div>
+                    </div>
+
+                    <div class="list">
+                        <img src="images/45769886201898.jpg" alt=""/>
+                        <div class="text">
+                            <h1>官方手机福利中心</h1>
+                            <h2>2017-04-10~2018-04-10</h2>
+                            <p>点券、道具、非卖免费送</p>
+                            <a href="javascript:;">> 进入专区</a>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <img src="images/14903648735831.jpg" alt=""/>
+                        <div class="text">
+                            <h1>官方微信</h1>
+                            <h2>2015-12-16~2016-12-16</h2>
+                            <p>电玩巴士！</p>
+                            <a href="javascript:;">> 进入专区</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="body-z body-s">
+                    <div class="body-tab">
+                        <ul id="list1">
+                            <li class="down1"><a href="javascript:;"><em class="em"></em>品牌站</a></li>
+                            <li><a href="javascript:;"><em class="em em1"></em>官方小说</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="list1 chu1">
+                        <img src="images/802121133670524.jpg" alt=""/>
+                        <div class="text1">
+                            <h1>舞就该这么跳</h1>
+                            <h2>2016-12-12~2016-12-09</h2>
+                            <p>2016NEXT IDEA腾讯炫舞大赛</p>
+                            <a href="javascript:;">> 进入专区</a>
+                        </div>
+                    </div>
+
+                    <div class="list1">
+                        <img src="images/4160235797399.jpg" alt=""/>
+                        <div class="text1">
+                            <h1>官方小说《拂光终见你》</h1>
+                            <h2>2016-07-26~2017-07-26</h2>
+                            <p>QQ炫舞官方小说正式发布，每日更新。</p>
+                            <a href="javascript:;">> 进入专区</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-x">
+
+                <div class="first">
+                <h1>炫舞老张个人微博<span>WEIBO</span></h1>
+                <p></p>
+                <a href="javascript:;">立即收听</a>
+            </div>
+
+                <div class="second">
+                    <h1>官方微信</h1>
+                    <p></p>
+                </div>
+
+                <div class="third">
+                    <h1>健康游戏公告<span>reminder</span></h1>
+                    <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当<br>
+                        适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+                </div>
+
+                <div class="fourth" id="fourth">
+                    <h2>炫舞官方合作媒体</h2>
+                    <i></i>
+                    <ul>
+                        <li><a href="javascript:;">腾讯游戏频道</a></li>
+                        <li><a href="javascript:;">3366小游戏平台</a></li>
+                        <li><a href="javascript:;">17173游戏专区</a></li>
+                        <li><a href="javascript:;">766游戏专区</a></li>
+                        <li><a href="javascript:;">52pk游戏专区</a></li>
+                        <li><a href="javascript:;">1T1T炫舞专区</a></li>
+                        <li><a href="javascript:;">太平洋游戏网</a></li>
+                        <li><a href="javascript:;">131游戏之家</a></li>
+                        <li><a href="javascript:;">百度游戏频道</a></li>
+                        <li><a href="javascript:;">腾讯文学</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <a href="javascript:;" class="logo">腾讯游戏|永航科技</a>
+        <div class="footer-con">
+            <p class="footer-list"><a href="javascript:;">关于腾讯游戏</a> | <a href="javascript:;">服务条款</a> | <a href="javascript:;">广告服务</a> | <a href="javascript:;">腾讯游戏招聘</a> | <a href="javascript:;">游戏地图</a> | <a href="javascript:;">游戏活动</a> | <a href="javascript:;">腾讯游戏客服</a> | <a href="javascript:;">商务合作</a> | <a href="javascript:;">腾讯网</a> | <a href="javascript:;">网站导航</a></p>
+            <p>本网络游戏适合年满14周岁以上的用户使用；请您确定已如实进行实名注册；为了您的健康，请合理控制游戏时间。</p>
+            <p class="p-o"><a href="http://www.qq.com/culture.shtml" title="网络文化经营许可证：粤网文[2014]0633-233号" target="_blank">网络文化经营许可证：粤网文[2014]0633-233号</a></p>
+            <p><a href="javascript:;">新出网证（粤）字010号</a> | 文网备字（2009）43号 | 京新出音[2008]249号 | 出版物号：978-7-900179-43-2</p>
+            <p class="p-copy">COPYRIGHT@<strong>2008 – 2016 TENCENT.</strong> ALL RIGHTS RESERVED.<a class="foot-a" href="javascript:;">腾讯公司版权所有</a></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.jquery.min.js"></script>
+<script src="js/feng.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
